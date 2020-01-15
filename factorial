@@ -1,0 +1,8 @@
+a=int(input("find an factorial of a no."))
+def facto(n):
+    if n==1:
+        return 1
+    else:
+        return n*facto(n-1)
+b=facto(a)
+print(b)
