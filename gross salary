@@ -1,0 +1,8 @@
+bs=float(input("enter an valid salary"))
+if bs>10000 and bs<=20000:
+    gs=bs+bs/10
+elif bs>20000 and bs<50000:
+    gs=bs+bs*2/10
+elif bs>=50000 and bs<60000:
+    gs=bs+bs*3/10
+print(gs)
