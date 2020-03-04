@@ -1,0 +1,13 @@
+c=input("enter operation :")
+while( c=="+" or c=="-" or c=="*" or c=="/"):
+    a=int(input("enter no's"))
+    b=int(input("enter no's"))
+    if c=="+":
+        print(a+b)
+    elif c=="-":
+        print(a-b)
+    elif c=="*" :
+        print( a*b) 
+    elif c=="/":
+        print (a/b)  
+    c=input("enter operation :")    
