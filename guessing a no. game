@@ -1,0 +1,18 @@
+         """guessing a no. game"""
+n=25
+l=25
+while l>0:
+    a=int(input("enter a correct guess: "))
+    if a<n:
+        print("correct guess is greater: ")
+        l=l-1
+        print("you have ",l,"attempt left")
+    elif a>n:
+        print("correct guess is smaller")
+        l=l-1
+        print("you have ",l,"attempt left")
+    else :
+        print("it is a correct guess you won")
+        break
+else:
+    print("game over you lose")
